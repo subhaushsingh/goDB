@@ -1,0 +1,14 @@
+# binaries & db files
+/minidb
+/goDB
+*.exe
+*.db
+*.data
+# go
+*.test
+*.out
+coverage.*
+# editor / os
+.idea/
+.vscode/
+.DS_Store
