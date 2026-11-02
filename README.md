@@ -1,7 +1,6 @@
 # minidb
 
-A transactional relational database in ~2,500 lines of Go, built from the
-"Build Your Own Database From Scratch in Go" design: copy-on-write B+tree →
+A transactional relational database  design: copy-on-write B+tree →
 durable KV with free list → tables + secondary indexes → snapshot-isolation
 transactions → SQL-like parser and executor. No dependencies, no mmap/syscall
 (builds on Windows, Linux, macOS; Go 1.22+).
