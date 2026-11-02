@@ -1,4 +1,4 @@
-# minidb
+# goDB
 
 A transactional relational database  design: copy-on-write B+tree →
 durable KV with free list → tables + secondary indexes → snapshot-isolation
